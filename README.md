@@ -1,2 +1,2 @@
 # PodChangeNotifier
-This will notify when their will be change in IP of Pod in cluster
+This will notify the user when their will be a change in IP of Pod in cluster
