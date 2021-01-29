@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+    	<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+ 
+		{%print("Listing pods with their IPs:")%}	
+						<table style="width:100%">
+						{% for i in range (0,5)%}
+						<tr>							
+							<td>
+								{{content[i][0]}}	
+							</td>	
+							<td>
+								{{content[i][1]}}
+							</td>
+							<td>
+								{{content[i][2]}}
+							</td>			
+						</tr>
+						{%endfor%}
+						
+					
+				</table>		
+	</body>
+</html>
